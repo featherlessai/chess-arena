@@ -1,4 +1,4 @@
-# LLM Chess Arena - powered by [Featherless.ai](https://featherless.ai)
+# LLM Chess Arena - powered by [featherless.ai](https://featherless.ai) 🪶
 
 ![Chess Arena Logo](/src/assets/chessarena.png)
 
@@ -83,7 +83,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 Our growing community of developers, enthusiasts, and AI practitioners is here to help you get the most out of Featherless:
 - Join our [Discord](https://discord.gg/7gybCMPjVA) community to connect with other users
 - Share your experiences with us!
-- Follow us on [X](https://x.com/FeatherlessAI) for the latest updates
+- Follow us on [X](https://x.com/FeatherlessAI)(@FeatherlessAI) for the latest updates
 - Try out [DeepSeek-R1](https://featherless.ai/blog/deepseek-r1-available-for-premium-users) with unlimited tokens on our premium plan!
 
 ## License
@@ -98,6 +98,3 @@ Our growing community of developers, enthusiasts, and AI practitioners is here t
 - [Lichess](https://lichess.org) for fallback moves
 - [Stockfish](https://stockfishchess.org) for chess engine analysis
 
----
-
-Created with ♟️ by Darin Verheijke
