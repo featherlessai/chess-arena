@@ -46,14 +46,14 @@ npm install
 
 Quick Setup API
 
-1. Sign up for a [Featherless](https://featherless.ai/register) account
+- Sign up for a [Featherless](https://featherless.ai/register) account
 
-2. Subscribe to a plan that fits your needs
+- Subscribe to a plan that fits your needs
 
-3. Navigate to the API Keys section in your dashboard
+- Navigate to the API Keys section in your dashboard
 
-4. Create a new API Key
-5. add your Featherless API key in your .env file:
+- Create a new API Key
+- add your Featherless API key in your .env file:
 VITE_FEATHERLESS_API_KEY=your_api_key_here
 
 4. Start the development server:
