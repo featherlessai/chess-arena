@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  color: #F3F4F6;
+}
+
+select, input, textarea {
+  color: #F3F4F6 !important;
+  background-color: #374151 !important;
+  border-color: #4B5563 !important;
+}
+
+select option {
+  background-color: #374151;
+  color: #F3F4F6;
+}
+
+.bg-white {
+  background-color: #2D3748 !important;
+}
+
+.bg-gray-50 {
+  background-color: #1F2937 !important;
+}
+
+.bg-gray-100 {
+  background-color: #374151 !important;
+}
+
+.text-sm {
+  color: #E5E7EB;
+}
+
+.text-xs {
+  color: #D1D5DB;
+}
+
+label {
+  color: #F3F4F6 !important;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+.card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some responsive breakpoints */
+@media (max-width: 768px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
